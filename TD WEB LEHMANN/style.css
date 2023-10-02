@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #fff;
+}
+
+.header_video{
+    background: url("Porsche\ 911\ GT3\ -\ Chaque\ instant\ compte.mp4");
+    height: 100%;
+}
+.video_h{
+    width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.porsche_logo{
+    width: 8%;
+    position: absolute;
+    left: -10px;
+    right: 50px;
+    top: -45px;
+}
+
+.back {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.back * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  color: rgb(0, 0, 0);
+}
+.back li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+}
+.back a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.back a:before,
+.back a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  color: rgb(0, 0, 0);
+}
+.back a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #830000;
+  color: rgb(0, 0, 0);
+}
+.back a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: rgb(0, 0, 0);
+  white-space: nowrap;
+}
+.back li:hover a,
+.back .current a {
+  transform: translateY(-100%);
+}
+
+body {
+	height: 90vh;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	background: #ffffff;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Overpass:wght@200;300&display=swap');#bigtitre{
+    font-family: 'Overpass' , sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);  
+    margin-top: 70px;
+    padding: 0;
+    position: absolute;
+    left: 200px;
+    right: 450px;
+    top: 380px;
+}
+
+.main{ 
+    padding: 0;
+    margin: 0;
+}
+
+#spyder{
+    display: flex;
+}
+
+.first_main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.second_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.third_main{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.forth_main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+.titreporsche{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titreporschedeux{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    display: flex;
+}
+
+#carone{
+    width: 75%;
+    align-items: center;
+}
+
+#cartwo{
+    width: 60%;
+    align-items: center;
+}
+
+#cartree{
+    width: 60%;
+    align-items: center; 
+}
